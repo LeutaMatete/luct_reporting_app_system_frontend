@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/css/main.5ea8f7c4.css",
-    "main.js": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/js/main.65fb0c8f.js",
+    "main.css": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/css/main.c50890a5.css",
+    "main.js": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/js/main.8173ffe9.js",
     "index.html": "/LeutaMatete/luct_reporting_app_system_frontend.git/index.html",
-    "main.5ea8f7c4.css.map": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/css/main.5ea8f7c4.css.map",
-    "main.65fb0c8f.js.map": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/js/main.65fb0c8f.js.map"
+    "main.c50890a5.css.map": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/css/main.c50890a5.css.map",
+    "main.8173ffe9.js.map": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/js/main.8173ffe9.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ea8f7c4.css",
-    "static/js/main.65fb0c8f.js"
+    "static/css/main.c50890a5.css",
+    "static/js/main.8173ffe9.js"
   ]
 }
