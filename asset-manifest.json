@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/css/main.c50890a5.css",
-    "main.js": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/js/main.8173ffe9.js",
-    "index.html": "/LeutaMatete/luct_reporting_app_system_frontend.git/index.html",
-    "main.c50890a5.css.map": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/css/main.c50890a5.css.map",
-    "main.8173ffe9.js.map": "/LeutaMatete/luct_reporting_app_system_frontend.git/static/js/main.8173ffe9.js.map"
+    "main.css": "/LeutaMatete/luct_reporting_app_system_frontend/static/css/main.c50890a5.css",
+    "main.js": "/LeutaMatete/luct_reporting_app_system_frontend/static/js/main.8173ffe9.js",
+    "index.html": "/LeutaMatete/luct_reporting_app_system_frontend/index.html",
+    "main.c50890a5.css.map": "/LeutaMatete/luct_reporting_app_system_frontend/static/css/main.c50890a5.css.map",
+    "main.8173ffe9.js.map": "/LeutaMatete/luct_reporting_app_system_frontend/static/js/main.8173ffe9.js.map"
   },
   "entrypoints": [
     "static/css/main.c50890a5.css",
