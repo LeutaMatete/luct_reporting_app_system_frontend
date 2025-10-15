@@ -1,0 +1,103 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content grows to fill space and push footer down */
+.main-content {
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+/* Ensure all pages have proper layout */
+.dashboard {
+    min-height: calc(100vh - 120px); /* Account for footer height */
+}
+
+.auth-container {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Home page specific */
+.home-container {
+    min-height: calc(100vh - 120px);
+}
+
+/* Header actions for refresh buttons */
+.header-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header-actions h1 {
+    margin: 0;
+}
+
+/* Additional rating styles */
+.selected-rating {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #e8f5e8;
+    border-radius: 5px;
+    color: #2e7d32;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Success message styles */
+.success-message {
+    text-align: center;
+    padding: 40px 20px;
+    background: #e8f5e8;
+    border-radius: 8px;
+    color: #2e7d32;
+    margin: 20px 0;
+}
+
+.success-message h2 {
+    margin-top: 0;
+    color: #2e7d32;
+}
+
+.success-message p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .header-actions {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+    
+    .dashboard {
+        min-height: calc(100vh - 140px);
+    }
+    
+    .auth-container {
+        min-height: calc(100vh - 140px);
+    }
+    
+    .home-container {
+        min-height: calc(100vh - 140px);
+    }
+}
